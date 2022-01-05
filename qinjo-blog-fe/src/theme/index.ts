@@ -1,2 +1,2 @@
-import './common-color-var.scss';
+import './var-palette.scss';
 import './layout.scss';
