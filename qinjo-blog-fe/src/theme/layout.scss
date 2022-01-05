@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--jo-font-family);
+    ::-webkit-scrollbar{
+        width: 4px;
+        background-color: rgba(0,0,0,0);
+        position: relative;
+        right: -4px;
+        height: 4px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: rgba(0,0,0,0.3);
+        border-radius: 20px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: rgba(0,0,0,0);
+    }
+    // ::-webkit-input-placeholder {
+    //     color: #999;
+    //     font-size: 14px;
+    //     font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC", Arial, sans-serif;
+    // }
+    input{
+        font-family: var(--jo-font-family);
+        &::placeholder{
+        -webkit-text-fill-color: var(--jo-gray-3);
+        }
+    }
+    input:disabled{
+        &::placeholder{
+            -webkit-text-fill-color: var(--jo-gray-4);
+        }
+    }
+    textarea::-webkit-input-placeholder {
+        color: var(--jo-gray-3);
+        font-size: 14px;
+        font-family: var(--jo-font-family);
+      }
+      textarea:-moz-placeholder {
+        color: var(--jo-gray-3);
+        font-size: 14px;
+      }
+      textarea::-moz-placeholder {
+        color: var(--jo-gray-3);
+        font-size: 14px;
+      }
+      textarea::-ms-input-placeholder {
+        color: var(--jo-gray-3);
+        font-size: 14px;
+      }
+    ul,li{ padding:0;margin:0;list-style:none}
+    p, h1, h2 {
+        margin: 0;
+        padding: 0;
+    }
+}
+
