@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-5e3980e4"],{6958:function(n,e,c){n.exports=c.p+"img/main_icon.d97ce5e5.png"},"808a":function(n,e,c){"use strict";c.r(e);var t=c("7a23"),o=c("6958"),a=c.n(o),s={class:"home"},i=Object(t["e"])(" sdfsd这里是首页 "),d=Object(t["d"])("img",{src:a.a,alt:""},null,-1),r=[i,d];function u(n,e,c,o,a,i){return Object(t["o"])(),Object(t["c"])("div",s,r)}var p={name:"Home"},b=c("6b0d"),m=c.n(b);const w=m()(p,[["render",u]]);e["default"]=w}}]);
+//# sourceMappingURL=chunk-5e3980e4.72073912.js.map
