@@ -1,6 +1,6 @@
-import RouterEnum from '@/plugins/enums/routes.enums'
-import { RouteRecordRaw } from 'vue-router'
-import AppLayout from '../pages/layout/index.vue'
+import RouterEnum from '@/plugins/enums/routes.enums';
+import { RouteRecordRaw } from 'vue-router';
+import AppLayout from '../pages/layout/index.vue';
 
 const routes = [
   {
@@ -18,6 +18,6 @@ const routes = [
       },
     ]
   }
-] as RouteRecordRaw []
+] as RouteRecordRaw [];
 
-export default routes
+export default routes;
