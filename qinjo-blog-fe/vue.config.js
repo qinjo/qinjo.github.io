@@ -9,5 +9,5 @@ module.exports = {
       maskIcon: 'favicon.ico',
       msTitleImagr: 'favicon.ico'
     }
-  }
+  },
 }

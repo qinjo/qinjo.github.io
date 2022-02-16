@@ -1,4 +1,4 @@
-import RouterEnum from '@/enums/routes.enums'
+import RouterEnum from '@/plugins/enums/routes.enums'
 import { RouteRecordRaw } from 'vue-router'
 import AppLayout from '../pages/layout/index.vue'
 
