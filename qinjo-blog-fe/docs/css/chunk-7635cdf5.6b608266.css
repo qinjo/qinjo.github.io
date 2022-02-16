@@ -1,0 +1,1 @@
+.home .meta{-webkit-animation:right-in-2 .8s ease-in-out;animation:right-in-2 .8s ease-in-out}.home .meta img{width:200px}@-webkit-keyframes right-in-2{0%{opacity:0;margin-left:20%}to{opacity:1;margin-left:0}}@keyframes right-in-2{0%{opacity:0;margin-left:20%}to{opacity:1;margin-left:0}}
