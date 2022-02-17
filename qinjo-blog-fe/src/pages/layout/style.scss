@@ -1,6 +1,5 @@
 .layout-main{
-  background-color: var(--jo-primary-color);
-  padding: 40px;
+  // background-color: var(--jo-primary-color);
   height: 100%;
   box-sizing: border-box;
   color: var(--jo-text-color-1);
@@ -11,17 +10,17 @@
   .layout-main-block{
     background-color: var(--jo-white);
     height: 100%;
-    animation: up-in-down .8s ease-in-out;
+    // animation: up-in-down .8s ease-in-out;
   }
-  @keyframes up-in-down {
-    0% {
-      opacity: 0;
-      height: 0%;
-    }
+  // @keyframes up-in-down {
+  //   0% {
+  //     opacity: 0;
+  //     height: 0%;
+  //   }
 
-    100% {
-      opacity: 1;
-      height: 100%;
-    }
-  }
+  //   100% {
+  //     opacity: 1;
+  //     height: 100%;
+  //   }
+  // }
 }
