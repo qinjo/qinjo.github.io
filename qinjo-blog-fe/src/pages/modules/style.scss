@@ -24,12 +24,12 @@
     ul {
       display: flex;
       flex-wrap: wrap;
-      justify-content: left;
-      width: 608px;
+      justify-content: space-evenly;
+      width: 647px;
       margin: -8px;
       font-weight: bold;
       li {
-        animation: right-in .8s ease-in-out;
+        font-size: 20px;
         padding: 10px 16px;
         border: 3px solid #0A1FD0;
         border-radius: 40px;
