@@ -19,7 +19,19 @@
   --jo-text-color-3: var(--jo-gray-3);
 
   // Font
-  --jo-font-family: "SamSungsBlod", "Microsoft YaHei", "微软雅黑", "PingFang SC", Arial, sans-serif;
+  --jo-font-family: SamSungsBlod, "Microsoft YaHei", "微软雅黑", "PingFang SC", Arial, sans-serif;
   --jo-font-14: 14px;
   --jo-font-20: 20px;
+}
+@font-face {
+  font-family: SamSungsBlod;
+  src: url('../assets/font/samsungsharpsans-bold.otf');
+}
+@font-face {
+  font-family: SamSungsRegular;
+  src: url('../assets/font/samsungsharpsans.otf');
+}
+@font-face {
+  font-family: SamSungsMedium;
+  src: url('../assets/font/samsungsharpsans-medium.otf');
 }
