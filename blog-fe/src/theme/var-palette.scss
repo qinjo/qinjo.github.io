@@ -1,0 +1,37 @@
+:root {
+  // Color Palette
+  --jo-black: #000;
+  --jo-white: #fff;
+  --jo-gray-1: #333;
+  --jo-gray-2: #666;
+  --jo-gray-3: #999;
+  --jo-gray-4: #ccc;
+  --jo-blue: #2848F3;
+  --jo-yellow: #f0e225;
+  --jo-green: #07c160;
+
+  // Component Colors
+  --jo-primary-color: var(--jo-blue);
+  --jo-success-color: var(--jo-green);
+  --jo-selection-color: var(--jo-yellow);
+  --jo-text-color-1: var(--jo-gray-1);
+  --jo-text-color-2: var(--jo-gray-2);
+  --jo-text-color-3: var(--jo-gray-3);
+
+  // Font
+  --jo-font-family: SamSungsBlod, "Microsoft YaHei", "微软雅黑", "PingFang SC", Arial, sans-serif;
+  --jo-font-14: 14px;
+  --jo-font-20: 20px;
+}
+@font-face {
+  font-family: SamSungsBlod;
+  src: url('../assets/font/samsungsharpsans-bold.otf');
+}
+@font-face {
+  font-family: SamSungsRegular;
+  src: url('../assets/font/samsungsharpsans.otf');
+}
+@font-face {
+  font-family: SamSungsMedium;
+  src: url('../assets/font/samsungsharpsans-medium.otf');
+}
